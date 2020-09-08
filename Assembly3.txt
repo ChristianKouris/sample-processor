@@ -1,0 +1,31 @@
+	SET 0
+	MOV r0, r3
+	LDR r1, r0	#if(data_mem==32)
+	SET 1
+	ADD r0, r3
+	SET 32
+	CMP r1, r3
+	BNE 0001	#jump: -5, label: preamb
+	MOV r2, r0	#r2 = sp
+	MOV r3, r2	#data_mem[i-sp] = data_mem[i]
+	LDR r1, r0
+	SUB r3, r0
+	STR r1, r3
+	SET 1
+	ADD r0, r3
+	SET 64
+	CMP r0, r3
+	BLT 0100	#jump: -8, label: message
+	SET 32
+	MOV r0, r3
+	SET 0
+	MOV r1, r3
+	SET 64
+	SUB r3, r2
+	ADD r3, r1
+	STR r0, r3
+	SET 1
+	ADD r1, r3
+	CMP r1, r2
+	BLT 0011	#jump: -7, label: padding
+	END

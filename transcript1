@@ -1,0 +1,360 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do top_level_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/RegFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:24 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/RegFile.sv 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 05:38:24 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/LUT.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:24 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/LUT.sv 
+# -- Compiling module LUT
+# 
+# Top level modules:
+# 	LUT
+# End time: 05:38:25 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/InstFetch.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:25 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/InstFetch.sv 
+# -- Compiling module InstFetch
+# 
+# Top level modules:
+# 	InstFetch
+# End time: 05:38:25 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/Definitions.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:25 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/Definitions.sv 
+# -- Compiling package definitions
+# 
+# Top level modules:
+# 	--none--
+# End time: 05:38:25 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/DataMem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:26 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/DataMem.sv 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 05:38:26 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/Ctrl.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:26 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/Ctrl.sv 
+# -- Compiling package Ctrl_sv_unit
+# -- Importing package definitions
+# -- Compiling module Ctrl
+# 
+# Top level modules:
+# 	Ctrl
+# End time: 05:38:27 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/InstROM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:27 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/InstROM.sv 
+# -- Compiling module InstROM
+# 
+# Top level modules:
+# 	InstROM
+# End time: 05:38:27 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:27 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/ALU.sv 
+# -- Compiling package ALU_sv_unit
+# -- Importing package definitions
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 05:38:28 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Christian/Desktop/CSE141L {C:/Users/Christian/Desktop/CSE141L/top_level.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:28 on Sep 07,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Christian/Desktop/CSE141L" C:/Users/Christian/Desktop/CSE141L/top_level.sv 
+# -- Compiling module top_level
+# 
+# Top level modules:
+# 	top_level
+# End time: 05:38:28 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/ALU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:50 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/ALU.sv 
+# ** Warning: C:/Users/Christian/Desktop/CSE141L/ALU.sv(8): (vlog-13233) Design unit "ALU_sv_unit" already exists and will be overwritten. Design unit compiled with different set of options.
+# -- Compiling package ALU_sv_unit
+# -- Importing package definitions
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 05:38:50 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/Ctrl.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:51 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/Ctrl.sv 
+# ** Warning: C:/Users/Christian/Desktop/CSE141L/Ctrl.sv(2): (vlog-13233) Design unit "Ctrl_sv_unit" already exists and will be overwritten. Design unit compiled with different set of options.
+# -- Compiling package Ctrl_sv_unit
+# -- Importing package definitions
+# -- Compiling module Ctrl
+# 
+# Top level modules:
+# 	Ctrl
+# End time: 05:38:51 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/DataMem.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:51 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/DataMem.sv 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 05:38:51 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/Definitions.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:51 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/Definitions.sv 
+# -- Compiling package definitions
+# 
+# Top level modules:
+# 	--none--
+# End time: 05:38:51 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/InstFetch.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:52 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/InstFetch.sv 
+# -- Compiling module InstFetch
+# 
+# Top level modules:
+# 	InstFetch
+# End time: 05:38:52 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/InstROM.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:52 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/InstROM.sv 
+# -- Compiling module InstROM
+# 
+# Top level modules:
+# 	InstROM
+# End time: 05:38:52 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/LUT.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:52 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/LUT.sv 
+# -- Compiling module LUT
+# 
+# Top level modules:
+# 	LUT
+# End time: 05:38:52 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/program1_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:53 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/program1_tb.sv 
+# -- Compiling module encrypt_tb
+# 
+# Top level modules:
+# 	encrypt_tb
+# End time: 05:38:53 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/program2_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:53 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/program2_tb.sv 
+# -- Compiling module decrypt_tb
+# 
+# Top level modules:
+# 	decrypt_tb
+# End time: 05:38:53 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/program3_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:53 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/program3_tb.sv 
+# -- Compiling module decrypt_depad_tb
+# 
+# Top level modules:
+# 	decrypt_depad_tb
+# End time: 05:38:54 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/RegFile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:54 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/RegFile.sv 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 05:38:54 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/top_level.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:38:54 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/top_level.sv 
+# -- Compiling module top_level
+# 
+# Top level modules:
+# 	top_level
+# End time: 05:38:55 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.top_level
+# vsim work.top_level 
+# Start time: 05:39:12 on Sep 07,2020
+# Loading sv_std.std
+# Loading work.top_level
+# Loading work.InstFetch
+# Loading work.LUT
+# Loading work.InstROM
+# ** Error: (vsim-13) Recompile work.Ctrl_sv_unit because work.definitions has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.Ctrl after work.Ctrl_sv_unit is recompiled.
+# ** Error: (vsim-13) Recompile work.Ctrl because work.definitions has changed.
+# Error loading design
+# End time: 05:39:13 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vsim work.encrypt_tb
+# vsim work.encrypt_tb 
+# Start time: 05:39:17 on Sep 07,2020
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# Loading work.top_level
+# Loading work.InstFetch
+# Loading work.LUT
+# Loading work.InstROM
+# ** Error: (vsim-13) Recompile work.Ctrl_sv_unit because work.definitions has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.Ctrl after work.Ctrl_sv_unit is recompiled.
+# ** Error: (vsim-13) Recompile work.Ctrl because work.definitions has changed.
+# Error loading design
+# End time: 05:39:18 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/ALU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:39:25 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/ALU.sv 
+# -- Compiling package ALU_sv_unit
+# -- Importing package definitions
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 05:39:26 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/Ctrl.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:39:26 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/Ctrl.sv 
+# -- Compiling package Ctrl_sv_unit
+# -- Importing package definitions
+# -- Compiling module Ctrl
+# 
+# Top level modules:
+# 	Ctrl
+# End time: 05:39:26 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/DataMem.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:39:26 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/DataMem.sv 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 05:39:26 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/Definitions.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:39:26 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/Definitions.sv 
+# -- Compiling package definitions
+# 
+# Top level modules:
+# 	--none--
+# End time: 05:39:27 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/InstFetch.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:39:27 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/InstFetch.sv 
+# -- Compiling module InstFetch
+# 
+# Top level modules:
+# 	InstFetch
+# End time: 05:39:27 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/InstROM.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:39:27 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/InstROM.sv 
+# -- Compiling module InstROM
+# 
+# Top level modules:
+# 	InstROM
+# End time: 05:39:27 on Sep 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/LUT.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:39:27 on Sep 07,2020
+# vlog -reportprogress 300 -work work C:/Users/Christian/Desktop/CSE141L/LUT.sv 
+# -- Compiling module LUT
+# 
+# Top level modules:
+# 	LUT
+# End time: 05:39:28 on Sep 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.encrypt_tb
+# vsim work.encrypt_tb 
+# Start time: 05:39:32 on Sep 07,2020
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# Loading work.top_level
+# Loading work.InstFetch
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.definitions
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+# ** Warning: (vsim-3015) C:/Users/Christian/Desktop/CSE141L/top_level.sv(90): [PCDPC] - Port size (1) does not match connection size (32) for port 'SC_in'. The port definition is at: C:/Users/Christian/Desktop/CSE141L/ALU.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb/dut/ALU1 File: C:/Users/Christian/Desktop/CSE141L/ALU.sv
+add wave sim:/encrypt_tb/*
+add wave sim:/encrypt_tb/dut/*
+run -all
+# ** Note: $stop    : C:/Users/Christian/Desktop/CSE141L/program1_tb.sv(138)
+#    Time: 585 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Christian/Desktop/CSE141L/program1_tb.sv line 138
