@@ -1,0 +1,73 @@
+# ARM:
+	SET 64		# index
+	MOV r0, r3
+ 	SET 61		# prelen and make sure there's enough preamble
+	LDR r1, r3 
+	SET 10	
+	CMP r1, r3
+	BGT 0000	#jump: 2, label: low
+	MOV r1, r3
+low:
+	SET 15	
+	CMP r1, r3
+	BLT 0000	#jump: 2, label: high
+	MOV r1, r3
+high:
+	SET 63		# state	
+	LDR r2, r3
+	STR r2, 155  
+for:
+	SET 32		# data_mem[index] = 32 ^ state
+	XOR r2, 32
+	PAR r2
+	STR r2, r0
+	SET 155 	# LFSR(state, taps)
+	LDR r2, r3
+	SET 62
+	LDR r3, r3
+	LFS r2, r3
+	SET 155
+	STR r2, r3
+	SET 1  		# index++
+	ADD r0, r3
+	SET 1 		# prelen--
+	SUB r1, r3
+	SET 0
+	CMP r1, r3
+	BNE 0111	#jump: -17, label: for
+while:			# while index < 128 index = r0, read_index = r1
+	SET 155		# data_mem[index] = data_mem[read_index] ^ LFSR
+	LDR r2, r3
+	LDR r3, r1
+	XOR r2, r3
+	PAR r2
+	STR r2, r0
+	MOV r2, r3 	# LFSR(state, taps)
+	SET 62
+	LDR r3, r3
+	LFS r2, r3
+	SET 155
+	STR r2, r3
+	SET 1		# read_index++
+	ADD r1, r3
+	ADD r0, r3 	# index++
+	SET 128
+	CMP r0, r3
+	BNE 0111	#jump: -17, label: while
+	END
+
+
+python:
+pre_len = data_mem[61]
+taps = data_mem[62]
+state = data_mem[63]
+index = 64
+for( 0 to pre_len ):
+  data_mem[index] = 32 ^ state
+  LFSR(state, taps)
+  index++
+read_in = 0
+while( index < 128 ):
+  data_mem[index] = data_mem[read_in] ^ state
+  LFSR(state, taps)
+  index++
